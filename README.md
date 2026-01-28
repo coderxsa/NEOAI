@@ -10,7 +10,7 @@ Choose your preferred method to deploy **Neo Ai**.
 2. Run this **one-line command** to update packages.
 
 ```bash
-pkg update -y && pkg upgrade -y && pkg install -y nodejs git && git clone https://github.com/coderxsa/Neo-Ai.git && cd Neo-Ai && npm install && node index.js
+pkg update -y && pkg upgrade -y && pkg install -y nodejs git && git clone https://github.com/coderxsa/NEOAI.git && cd NEOAI && npm install && node index.js
 ```
 
 ### 🧹 To Remove state and Unlink Device
@@ -18,7 +18,7 @@ pkg update -y && pkg upgrade -y && pkg install -y nodejs git && git clone https:
 1) If you want to unlink your WhatsApp session or reset login, run this command:
 
 ```bash
-cd Neo-Ai && rm -rf sessions
+cd NEOAI && rm -rf sessions
 ```
 
 ```bash
@@ -87,4 +87,5 @@ export default handler
 > This bot is not affiliated with `WhatsApp Inc.` Misusing the bot (spamming, bulk messaging) may result in your WhatsApp account being **banned**.
 > * I am not responsible for any bans your account may receive.
 > * Use this bot at your own risk.
+
 
